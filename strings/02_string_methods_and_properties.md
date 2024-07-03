@@ -38,6 +38,17 @@ string upperCaseMessage = message.ToUpper(); // "HELLO, WORLD!"
 string lowerCaseMessage = message.ToLower(); // "hello, world!"
 ```
 
+#### `String Equality Check`
+Checks if two strings (`text1` and `text2` in this case) are equal.
+
+```csharp
+string text1 = "example";
+string text2 = "example";
+
+bool areEqual = text1.Equals(text2);
+Console.WriteLine($"Are Text1 and Text2 equal? {areEqual}"); // true
+```
+
 #### `Substring(int startIndex)` and `Substring(int startIndex, int length)`
 
 Substring method returns a new string that is a substring of the original string. The first form takes a starting index, and the second form also specifies a length.
