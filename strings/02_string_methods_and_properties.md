@@ -13,6 +13,18 @@ Example:
 string text = "Hello, world!";
 int length = text.Length; // length is 13
 ```
+
+#### `Chars`
+
+Allows access to individual characters in the string by index. Indexing starts at 0 for the first character and `Length - 1` for the last character.
+
+```csharp
+string exampleText = "Hello, World!";
+
+Console.WriteLine("First character: " + exampleText[0]); // "H"
+Console.WriteLine("Last character: " + exampleText[exampleText.Length - 1]); // "!"
+```
+
 ### Methods
 
 #### `ToUpper()` and `ToLower()`
