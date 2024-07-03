@@ -49,6 +49,39 @@ bool areEqual = text1.Equals(text2);
 Console.WriteLine($"Are Text1 and Text2 equal? {areEqual}"); // true
 ```
 
+#### `IsNullOrEmpty`
+Checks if a string is null or empty (string.Empty represents an empty string literal).
+
+```csharp
+bool isEmpty = string.IsNullOrEmpty(string.Empty);
+bool isNull = string.IsNullOrEmpty(null);
+Console.WriteLine($"Is it empty or null? {isEmpty} - {isNull}"); // true & true
+```
+
+#### `IsNullOrWhiteSpace`
+Checks if a string is null, empty, or consists only of white-space characters.
+
+```csharp
+string multipleCharacters = "    "; // Contains only white-space characters
+
+bool isEmptyOrWhiteSpace = string.IsNullOrWhiteSpace(multipleCharacters);
+Console.WriteLine($"Is the text empty or whitespace? {isEmptyOrWhiteSpace}"); // true
+```
+
+#### `Trim`
+Removes leading and trailing white-space characters from a string (`text1` and `text2` in this case).
+
+```csharp
+string text1 = "  Hello ";
+string text2 = " World  ";
+
+string trimmedText1 = text1.Trim();
+string trimmedText2 = text2.Trim();
+
+Console.WriteLine($"Text1 without white-spaces: {trimmedText1}"); // "Hello"
+Console.WriteLine($"Text2 without white-spaces: {trimmedText2}"); // "World"
+```
+
 #### `Substring(int startIndex)` and `Substring(int startIndex, int length)`
 
 Substring method returns a new string that is a substring of the original string. The first form takes a starting index, and the second form also specifies a length.
