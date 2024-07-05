@@ -1,6 +1,16 @@
-[Home](../README.md)
-
-[next(methods an properties)](./02_string_methods_and_properties.md)
+<div align="center">
+    <a href="../README.md">Home</a>
+</div>
+<table align=center>
+  <tr>
+    <td align="left">
+      <a href="../README.md.md">◀️introduction</a>
+    </td>
+    <td align="right">
+      <a href="./02_string_methods_and_properties.md">methods and properties▶️</a>
+    </td>
+  </tr>
+</table>
 # Strings in C#
 
 In this example, we explore strings in C# and how to use them effectively.Strings are a sequence of characters used to represent text. In C#, strings are handled as objects of the String class, allowing you to perform various operations such as concatenation, search, modification, and more
