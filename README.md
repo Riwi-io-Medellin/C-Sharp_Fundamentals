@@ -18,3 +18,7 @@ Its intuitive syntax and tools like Visual Studio enable developers to write and
 
 ### Ecosystem and Community
 C# has a broad ecosystem of libraries and development tools, supported by an active community that provides support and additional resources.
+
+## Menú
+### Basic concepts
+- [strings](./strings/01_basic.md)
