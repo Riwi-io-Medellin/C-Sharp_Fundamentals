@@ -1,4 +1,6 @@
 [Home](../README.md)
+
+[next(methods an properties)](./02_string_methods_and_properties.md)
 # Strings in C#
 
 In this example, we explore strings in C# and how to use them effectively.Strings are a sequence of characters used to represent text. In C#, strings are handled as objects of the String class, allowing you to perform various operations such as concatenation, search, modification, and more
