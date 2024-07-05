@@ -1,12 +1,16 @@
-<div style="display: flex; justify-content: space-between;">
-  <div>
+<div align="center">
     <a href="../README.md">Home</a>
-  </div>
-  <div>
-    <a href="./01_basic.md">previous(strings)</a>
-  </div>
 </div>
-
+<table width="100%">
+  <tr>
+    <td align="left">
+      <a href="./01_basic.md">previous(strings)</a>
+    </td>
+    <td align="right">
+      <a href="./01_basic.md">previous(strings)</a>
+    </td>
+  </tr>
+</table>
 ## Methods and Properties of Strings in C#
 
 
