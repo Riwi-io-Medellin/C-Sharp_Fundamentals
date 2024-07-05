@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="../README.md">Home</a>
+    <a href="/README.md">Home</a>
 </div>
 <table align=center>
   <tr>

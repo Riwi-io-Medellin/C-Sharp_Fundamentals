@@ -1,10 +1,10 @@
 <div align="center">
-    <a href="../README.md">Home</a>
+    <a href="/README.md">Home</a>
 </div>
 <table align=center>
   <tr>
     <td align="left">
-      <a href="../README.md.md">◀️introduction</a>
+      <a href="/README.md">◀️introduction</a>
     </td>
     <td align="right">
       <a href="./02_string_methods_and_properties.md">methods and properties▶️</a>
