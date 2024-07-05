@@ -4,10 +4,10 @@
 <table align=center>
   <tr>
     <td align="left">
-      <a href="/README.md">◀️Methods and properties (string)</a>
+      <a href="../strings/02_string_methods_and_properties.md">◀️Methods and properties (string)</a>
     </td>
     <td align="right">
-      <a href="./02_string_methods_and_properties.md">Math▶️</a>
+      <a href="#">Math▶️</a>
     </td>
   </tr>
 </table>

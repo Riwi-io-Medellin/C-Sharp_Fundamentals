@@ -7,7 +7,7 @@
       <a href="./01_basic.md">◀️strings</a>
     </td>
     <td align="right">
-      <a href="./01_basic.md">numbers▶️</a>
+      <a href="../numbers/01_basic.md">numbers▶️</a>
     </td>
   </tr>
 </table>
