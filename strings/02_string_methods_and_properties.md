@@ -1,16 +1,17 @@
 <div align="center">
     <a href="../README.md">Home</a>
 </div>
-<table width="100%">
+<table align=center>
   <tr>
     <td align="left">
-      <a href="./01_basic.md">previous(strings)</a>
+      <a href="./01_basic.md">◀️strings</a>
     </td>
     <td align="right">
-      <a href="./01_basic.md">previous(strings)</a>
+      <a href="./01_basic.md">numbers▶️</a>
     </td>
   </tr>
 </table>
+
 ## Methods and Properties of Strings in C#
 
 
