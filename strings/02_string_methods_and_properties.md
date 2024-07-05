@@ -1,7 +1,14 @@
-[Home](../README.md)
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <a href="../README.md">Home</a>
+  </div>
+  <div>
+    <a href="./01_basic.md">previous(strings)</a>
+  </div>
+</div>
 
-[previous(strings)](./01_basic.md)
 ## Methods and Properties of Strings in C#
+
 
 In C#, the `string` type provides a rich set of methods and properties for manipulating and working with text data. Here are some commonly used methods and properties:
 
