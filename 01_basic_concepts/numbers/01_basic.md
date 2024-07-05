@@ -50,20 +50,20 @@ decimal division = price / 3.0m; // division = 33.33
 ### Conversion Methods
 
 1. **Conversion to Integer:**
-   - `Convert.ToInt32(someValue)`: Converts a value to an integer (`int`).
+   `Convert.ToInt32(someValue)` Converts a value to an integer (`int`).
    ```csharp
    int intValue = Convert.ToInt32(10.5); // intValue = 10
    ```
 
 2. **Conversion to String:**
-   - `ToString()`: Converts a numeric value to its string representation.
+   `ToString()` Converts a numeric value to its string representation.
    ```csharp
    double value = 3.14; 
    string stringValue = value.ToString(); // stringValue = "3.14"
    ```
 
 3. **Explicit Conversion:**
-   - `(dataType)value`: Explicitly converts a value from one type to another.
+   `(dataType)value` Explicitly converts a value from one type to another.
    ```csharp
    int intValue = (int)3.99; // intValue = 3
    ```
@@ -74,21 +74,21 @@ decimal division = price / 3.0m; // division = 33.33
 
 
 1. **Standard Numeric Format Specifiers:**
-   - `ToString("formatSpecifier")`: Formats a numeric value according to the specified format specifier. 
+   `ToString("formatSpecifier")` Formats a numeric value according to the specified format specifier. 
    ```csharp
    decimal value = 12345.6789m; 
    string formattedValue = value.ToString("C"); // formattedValue = "$12,345.68"
    ```
 
 2. **Custom Numeric Format Strings:**
-   - `ToString("customFormatString")`: Formats a numeric value using a custom format string.
+   `ToString("customFormatString")` Formats a numeric value using a custom format string.
    ```csharp
    double value = 0.123456789; 
    string formattedValue = value.ToString("0.00%"); // formattedValue = "12.35%"`
    ```
 
 3. **Parsing:**
-   - `Parse(stringValue)`: Converts a string representation of a number to its numeric equivalent.
+   `Parse(stringValue)` Converts a string representation of a number to its numeric equivalent.
    ```csharp
    string numberString = "123"; 
    int number = int.Parse(numberString); // number = 123`
