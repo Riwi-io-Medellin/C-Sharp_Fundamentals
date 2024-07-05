@@ -1,6 +1,10 @@
 <p align="center"><img src="https://thelittlecoder.com/wp-content/uploads/2021/05/CSharp-Essentials.jpg" width="800" alt="logo"></p>
 
 C# is a modern programming language developed by Microsoft. Since its launch in the year 2000, it has gained popularity for its power and ease of use.
+## Menú
+### Basic concepts
+- [Introduction to C#](./README.md)
+- [strings](./strings)
 
 ## Importance in Software Development
 
@@ -19,6 +23,4 @@ Its intuitive syntax and tools like Visual Studio enable developers to write and
 ### Ecosystem and Community
 C# has a broad ecosystem of libraries and development tools, supported by an active community that provides support and additional resources.
 
-## Menú
-### Basic concepts
-- [strings](./strings/01_basic.md)
+
