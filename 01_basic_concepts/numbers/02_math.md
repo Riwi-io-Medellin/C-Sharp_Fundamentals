@@ -7,7 +7,7 @@
       <a href="./01_basic.md">◀️Numbers</a>
     </td>
     <td align="right">
-      <a href="#">Math▶️</a>
+      <a href="../condicionals/01_basic.md">Condicionals▶️</a>
     </td>
   </tr>
 </table>
