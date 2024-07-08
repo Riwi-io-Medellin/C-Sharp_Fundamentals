@@ -4,10 +4,10 @@
 <table align=center>
   <tr>
     <td align="left">
-      <a href="./01_basic.md">◀️strings</a>
+      <a href="./01_basic.md">◀️Strings</a>
     </td>
     <td align="right">
-      <a href="../numbers/01_basic.md">numbers▶️</a>
+      <a href="../numbers/01_basic.md">Numbers▶️</a>
     </td>
   </tr>
 </table>
