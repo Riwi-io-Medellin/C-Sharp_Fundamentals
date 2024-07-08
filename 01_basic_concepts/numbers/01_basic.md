@@ -7,7 +7,7 @@
       <a href="../strings/02_string_methods_and_properties.md">◀️Methods and properties (string)</a>
     </td>
     <td align="right">
-      <a href="#">Math▶️</a>
+      <a href="./02_math.md">Math▶️</a>
     </td>
   </tr>
 </table>
