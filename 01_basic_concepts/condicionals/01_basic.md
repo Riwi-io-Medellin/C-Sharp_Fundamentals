@@ -7,7 +7,7 @@
       <a href="../numbers/02_math.md">◀️Math</a>
     </td>
     <td align="right">
-      <a href="./02_string_methods_and_properties.md">Switch▶️</a>
+      <a href="./02_switch.md">Switch▶️</a>
     </td>
   </tr>
 </table>
