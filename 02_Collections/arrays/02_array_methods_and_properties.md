@@ -2,11 +2,14 @@
     <a href="/README.md">Home</a>
 </div>
 <table align=center>
-  <tr>
-    <td align="left">
-      <a href="./01_basic.md">◀️Arrays</a>
-    </td>
-  </tr>
+    <tr>
+        <td align="left">
+            <a href="./01_basic.md">◀️Arrays</a>
+        </td>
+        <td align="right">
+            <a href="../lists/01_basic.md">Lists▶️</a>
+        </td>
+    </tr>
 </table>
 
 # Methods and Properties of Arrays in C#
