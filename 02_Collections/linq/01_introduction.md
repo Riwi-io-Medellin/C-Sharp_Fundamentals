@@ -7,7 +7,7 @@
             <a href="../lists/02_list_methods_and_properties.md">◀️list methods and properties</a>
         </td>
         <td align="right">
-            <a href="./">LINQ methods▶️</a>
+            <a href="./02_linq_methods.md">LINQ methods▶️</a>
         </td>
     </tr>
 </table>

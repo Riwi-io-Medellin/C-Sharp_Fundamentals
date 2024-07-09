@@ -16,6 +16,7 @@ C# is a modern programming language developed by Microsoft. Since its launch in 
 - [lists](./02_Collections/lists/01_basic.md)
 - [list methods and properties](./02_Collections/lists/02_list_methods_and_properties.md)
 - [LINQ](./02_Collections/linq/01_introduction.md)
+- [LINQ methods](./02_Collections/linq/02_linq_methods.md)
 
 ## Importance in Software Development
 
