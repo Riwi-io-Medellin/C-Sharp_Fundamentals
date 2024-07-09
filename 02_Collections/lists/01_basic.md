@@ -7,7 +7,7 @@
       <a href="../arrays/02_array_methods_and_properties.md">◀️Array methods an properties</a>
     </td>
       <td align="right">
-         <a href="./">List methods an properties▶️</a>
+         <a href="./02_list_methods_and_properties.md">List methods an properties▶️</a>
       </td>
   </tr>
 </table>
