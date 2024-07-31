@@ -68,7 +68,7 @@ Array.Sort(numbers); // numbers = { 10, 20, 30 }
 The `Reverse` method reverses the order of the elements in a one-dimensional array.
 ```csharp
 int[] numbers = { 30, 10, 20 };
-Array.Sort(numbers); // numbers = { 10, 20, 30 }
+Array.Reverse(numbers); // numbers = { 10, 20, 30 }
 ```
 
 ### IndexOf
