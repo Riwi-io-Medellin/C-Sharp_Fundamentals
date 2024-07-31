@@ -56,6 +56,55 @@ person.Age = 30;
 Console.WriteLine($"Name: {person.Name}, Age: {person.Age}"); // Name: John, Age: 30
 ```
 
+## Properties with Methods
+You can also use methods to access and modify field values. This approach provides more control and is useful when additional logic is needed.
+
+Instead of using a property, you might define a method to get or set a value.
+
+```csharp
+public class Person
+{
+    private string name;
+    private int age;
+
+    // Method to get the name
+    public string GetName()
+    {
+        return name;
+    }
+
+    // Method to set the name
+    public void SetName(string name)
+    {
+        this.name = name;
+    }
+
+    // Method to get the age
+    public int GetAge()
+    {
+        return age;
+    }
+
+    // Method to set the age with validation
+    public void SetAge(int age)
+    {
+        if (age >= 0)
+        {
+            this.age = age;
+        }
+    }
+}
+```
+In this example, methods `GetName`, `SetName`, `GetAge`, and `SetAge` are used to access and modify the `name` and `age` fields. This approach allows for additional validation or logic when setting values.
+
+```csharp
+Person person = new Person();
+person.SetName("Lucas");
+person.SetAge(37);
+
+Console.WriteLine($"Name: {person.GetName()}, Age: {person.GetAge()}"); // Name: Lucas, Age: 37
+```
+
 ## Automatic Properties
 Automatic properties allow you to define a property without explicitly declaring a private field. The compiler takes care of creating the private field in the background.
 
