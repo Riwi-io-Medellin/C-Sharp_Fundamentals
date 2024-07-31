@@ -55,3 +55,23 @@ person.Age = 30;
 
 Console.WriteLine($"Name: {person.Name}, Age: {person.Age}"); // Name: John, Age: 30
 ```
+
+## Automatic Properties
+Automatic properties allow you to define a property without explicitly declaring a private field. The compiler takes care of creating the private field in the background.
+
+```csharp
+public class Person
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+```
+In this example, the properties `Name` and `Age` are automatic properties. There is no need to explicitly declare private fields for these properties.
+
+```csharp
+Person person = new Person();
+person.Name = "Maria";
+person.Age = 25;
+
+Console.WriteLine($"Name: {person.Name}, Age: {person.Age}"); // Name: Maria, Age: 25
+```
