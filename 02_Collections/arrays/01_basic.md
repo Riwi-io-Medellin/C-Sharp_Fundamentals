@@ -83,4 +83,3 @@ If you know the values but not the exact size, you can omit the size and let the
 ```csharp
 int[] numbers = new int[] { 10, 20, 30 };
 ```
-
