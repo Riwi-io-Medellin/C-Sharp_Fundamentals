@@ -4,7 +4,7 @@
 <table align=center>
   <tr>
     <td align="right">
-      <!-- <a href="#">Methods and properties▶️</a> -->
+      <a href="./02_properties.md">Properties▶️</a>
     </td>
   </tr>
 </table>
