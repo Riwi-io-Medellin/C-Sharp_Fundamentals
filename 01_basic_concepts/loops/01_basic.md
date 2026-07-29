@@ -7,7 +7,7 @@
       <a href="../condicionals/02_switch.md">◀️Switch</a>
     </td>
     <td align="right">
-      <a href="../../02_Collections/arrays/01_basic.md">Arrays▶️</a>
+      <a href="../methods/01_basic.md">Methods▶️</a>
     </td>
   </tr>
 </table>

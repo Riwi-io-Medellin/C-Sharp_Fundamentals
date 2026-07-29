@@ -4,6 +4,8 @@ C# is a modern programming language developed by Microsoft. Since its launch in 
 ## Menú
 ### Basic concepts
 - [introduction to C#](./README.md)
+- [variables and data types](./01_basic_concepts/variables/01_basic.md)
+- [console input and output](./01_basic_concepts/console/01_basic.md)
 - [strings](./01_basic_concepts/strings/01_basic.md)
 - [string methods and properties](./01_basic_concepts/strings/02_string_methods_and_properties.md)
 - [numbers](./01_basic_concepts/numbers/01_basic.md)
@@ -12,6 +14,8 @@ C# is a modern programming language developed by Microsoft. Since its launch in 
 - [conditionals](./01_basic_concepts/condicionals/01_basic.md)
 - [switch](./01_basic_concepts/condicionals/02_switch.md)
 - [loops](./01_basic_concepts/loops/01_basic.md)
+- [methods](./01_basic_concepts/methods/01_basic.md)
+- [exceptions](./01_basic_concepts/exceptions/01_basic.md)
 
 ### Collections
 - [arrays](./02_Collections/arrays/01_basic.md)

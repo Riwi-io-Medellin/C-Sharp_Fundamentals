@@ -4,7 +4,7 @@
 <table align=center>
   <tr>
     <td align="left">
-      <a href="../../01_basic_concepts/loops/01_basic.md">◀️Loops</a>
+      <a href="../../01_basic_concepts/exceptions/01_basic.md">◀️Exceptions</a>
     </td>
     <td align="right">
       <a href="./02_array_methods_and_properties.md">Methods and properties▶️</a>
