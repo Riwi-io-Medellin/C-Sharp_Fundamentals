@@ -4,7 +4,7 @@
 <table align=center>
   <tr>
     <td align="left">
-      <a href="../numbers/02_math.md">◀️Math</a>
+      <a href="../operators/01_basic.md">◀️Operators</a>
     </td>
     <td align="right">
       <a href="./02_switch.md">Switch▶️</a>
