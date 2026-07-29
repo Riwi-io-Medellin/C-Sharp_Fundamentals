@@ -88,6 +88,55 @@ bool canVote = IsAdult(20); // canVote = true
 > [!IMPORTANT]
 > A method with a return type other than `void` must always return a value of that type. If you forget the `return`, the compiler shows an error.
 
+## Passing Parameters by Reference (ref)
+
+By default, parameters are passed **by value**: the method receives a copy of the variable, so any change made inside the method does not affect the original.
+
+```csharp
+static void AddTen(int number)
+{
+    number += 10; // modifies only the copy
+}
+
+int myNumber = 5;
+AddTen(myNumber);
+Console.WriteLine(myNumber); // 5 (the original did not change)
+```
+
+With the `ref` keyword, the parameter is passed **by reference**: the method works directly with the original variable, so any change inside the method is reflected outside.
+
+```csharp
+static void AddTen(ref int number)
+{
+    number += 10; // modifies the original variable
+}
+
+int myNumber = 5;
+AddTen(ref myNumber);
+Console.WriteLine(myNumber); // 15 (the original changed)
+```
+
+> [!IMPORTANT]
+> The `ref` keyword must be written in both places: in the method declaration and in the call. Also, the variable must be initialized before being passed with `ref`, otherwise the compiler shows an error.
+
+A classic example is a method that swaps the values of two variables, which is impossible with parameters passed by value:
+
+```csharp
+static void Swap(ref int a, ref int b)
+{
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+int x = 1;
+int y = 2;
+Swap(ref x, ref y);
+Console.WriteLine($"x = {x}, y = {y}"); // x = 2, y = 1
+```
+
+There is a similar keyword, `out`, that also passes by reference, but it is used when the method **produces** a value instead of modifying an existing one: the variable does not need to be initialized before the call, and the method is required to assign it. You will see it in action with `int.TryParse(input, out int age)` in the next section, exceptions.
+
 ## Optional Parameters
 
 You can give a parameter a default value. If the caller does not provide it, the default is used.
