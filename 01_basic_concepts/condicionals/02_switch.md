@@ -7,7 +7,7 @@
       <a href="./01_basic.md">◀️Conditional Statements</a>
     </td>
     <td align="right">
-      <a href="../../02_Collections/arrays/01_basic.md">Arrays▶️</a>
+      <a href="../loops/01_basic.md">Loops▶️</a>
     </td>
   </tr>
 </table>
