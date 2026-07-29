@@ -135,7 +135,47 @@ Swap(ref x, ref y);
 Console.WriteLine($"x = {x}, y = {y}"); // x = 2, y = 1
 ```
 
-There is a similar keyword, `out`, that also passes by reference, but it is used when the method **produces** a value instead of modifying an existing one: the variable does not need to be initialized before the call, and the method is required to assign it. You will see it in action with `int.TryParse(input, out int age)` in the next section, exceptions.
+## Output Parameters (out)
+
+The `out` keyword also passes a parameter by reference, but with a different purpose: it is used when the method **produces** a value and needs to deliver it to the caller. The difference with `ref` is that the variable does not need to be initialized before the call — the method is **required** to assign it a value before returning.
+
+```csharp
+static void GetSquare(int number, out int result)
+{
+    result = number * number; // the method must assign the out parameter
+}
+
+int square; // no need to initialize it
+GetSquare(5, out square);
+Console.WriteLine(square); // 25
+```
+
+You can even declare the variable directly in the call, which is the most common style:
+
+```csharp
+GetSquare(7, out int anotherSquare);
+Console.WriteLine(anotherSquare); // 49
+```
+
+## Returning Multiple Values with out
+
+Since `return` can only return one value, `out` is the classic way to make a method deliver several results at once.
+
+```csharp
+static void Divide(int dividend, int divisor, out int quotient, out int remainder)
+{
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+}
+
+Divide(17, 5, out int q, out int r);
+Console.WriteLine($"Quotient: {q}, Remainder: {r}"); // Quotient: 3, Remainder: 2
+```
+
+> [!IMPORTANT]
+> In short: use `ref` when the method needs to **modify** a variable that already has a value, and `out` when the method needs to **produce and deliver** a new value.
+
+The most famous use of `out` in C# is `int.TryParse(input, out int age)`: the method returns a `bool` indicating whether the conversion worked, and delivers the converted number through the `out` parameter. You will see it in action in the next section, exceptions.
 
 ## Optional Parameters
 
