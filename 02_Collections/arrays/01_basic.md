@@ -3,6 +3,9 @@
 </div>
 <table align=center>
   <tr>
+    <td align="left">
+      <a href="../../01_basic_concepts/condicionals/02_switch.md">◀️Switch</a>
+    </td>
     <td align="right">
       <a href="./02_array_methods_and_properties.md">Methods and properties▶️</a>
     </td>

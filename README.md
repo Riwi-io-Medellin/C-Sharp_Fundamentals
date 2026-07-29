@@ -10,6 +10,7 @@ C# is a modern programming language developed by Microsoft. Since its launch in 
 - [math](./01_basic_concepts/numbers/02_math.md)
 - [operators](./01_basic_concepts/operators/01_basic.md)
 - [conditionals](./01_basic_concepts/condicionals/01_basic.md)
+- [switch](./01_basic_concepts/condicionals/02_switch.md)
 
 ### Collections
 - [arrays](./02_Collections/arrays/01_basic.md)
