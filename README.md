@@ -40,8 +40,9 @@ C# is a modern programming language developed by Microsoft. Since its launch in 
 | 2 | [Array methods and properties](./02_Collections/arrays/02_array_methods_and_properties.md) | Sorting, searching and more |
 | 3 | [Lists](./02_Collections/lists/01_basic.md) | Dynamic collections with `List<T>` |
 | 4 | [List methods and properties](./02_Collections/lists/02_list_methods_and_properties.md) | Adding, removing and finding elements |
-| 5 | [LINQ](./02_Collections/linq/01_introduction.md) | Querying collections with expressive syntax |
-| 6 | [LINQ methods](./02_Collections/linq/02_linq_methods.md) | `Where`, `Select`, `OrderBy` and more |
+| 5 | [Tuples](./02_Collections/tuples/01_basic.md) | Grouping related values of different types |
+| 6 | [LINQ](./02_Collections/linq/01_introduction.md) | Querying collections with expressive syntax |
+| 7 | [LINQ methods](./02_Collections/linq/02_linq_methods.md) | `Where`, `Select`, `OrderBy` and more |
 
 ### OOP (Object-Oriented Programming)
 

@@ -7,7 +7,7 @@
             <a href="./01_basic.md">◀️Lists</a>
         </td>
         <td align="right">
-            <a href="../linq/01_introduction.md">LINQ▶️</a>
+            <a href="../tuples/01_basic.md">Tuples▶️</a>
         </td>
     </tr>
 </table>

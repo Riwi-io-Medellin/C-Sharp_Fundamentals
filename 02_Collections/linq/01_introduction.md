@@ -4,7 +4,7 @@
 <table align=center>
     <tr>
         <td align="left">
-            <a href="../lists/02_list_methods_and_properties.md">◀️list methods and properties</a>
+            <a href="../tuples/01_basic.md">◀️Tuples</a>
         </td>
         <td align="right">
             <a href="./02_linq_methods.md">LINQ methods▶️</a>
